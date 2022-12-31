@@ -7,7 +7,7 @@
 root@rendtdev~ $ sudo apt-get install wget -y
 root@rendydev~ $ wget https://raw.githubusercontent.com/TeamKillerX/bash-linux/main/base.py
 root@rendydev~ $ chmod +x base.py
-root@rendydev~ $ ./base.py
+root@rendydev~ $ python3 base.py
 ```
 
 ## don't forget nano vars
