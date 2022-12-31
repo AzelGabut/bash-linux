@@ -14,4 +14,5 @@ PACK_NAME=kang pack
 STRING_SESSION1=
 """ > config.env
 clear
-rm base.sh
+file="base.sh"
+[ -f $file ] && rm $file
