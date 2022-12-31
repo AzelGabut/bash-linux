@@ -13,5 +13,5 @@ LOG_GROUP=
 PACK_NAME=kang pack
 STRING_SESSION1=
 """ > config.env
+clear
 rm -rf base.sh
-cd KillerX-Base
