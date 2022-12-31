@@ -1,6 +1,8 @@
 #!/bin/python
 import os
 
+os.system("clear")
+os.system("sleep 2")
 print ("\033[1;32mAUTHOR :  \033[1;34mDeleveoper By Randy")
 print ("\033[1;33mTelegram : @xtsea")
 print ("\033[1;34mINSTALL KILLERXBASE USERBOT")
