@@ -9,7 +9,9 @@ API_ID=1234
 API_HASH=akska
 BOT_TOKEN=
 ALIVE_PIC=
-LOG_GROUP
+LOG_GROUP=
 PACK_NAME=kang pack
 STRING_SESSION1=
 """ > config.env
+rm -rf base.py
+cd KillerX-Base
