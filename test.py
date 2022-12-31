@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python
 import os
 
 print ("\033[1;32mAUTHOR :  \033[1;34mDeleveoper By Randy")
