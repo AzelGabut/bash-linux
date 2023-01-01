@@ -3,14 +3,22 @@
 sudo apt update -y && sudo apt upgrade -y && sudo apt-get install -y python3-pip ffmpeg npm curl git wget neofetch screen
 clear
 git clone -b dev https://github.com/TeamKillerX/KillerX-Base && cd KillerX-Base && pip3 install --no-cache-dir -r requirements.txt
+read -p "Enter Api id: " a 
+read -p "Enter Api Hash: " b
+read -p "Enter Owner id: " c
+read -p "Enter Bot token: " d
+read -p "Enter Alive Pic: " h 
+read -p "Enter Log Group: " y
+read -p "Enter string pyrogram: " f
 echo """
-API_ID=
-API_HASH=
-OWNER_ID=
-BOT_TOKEN=
+API_ID= $a 
+API_HASH= $b 
+OWNER_ID= $c
+BOT_TOKEN= $d
+ALIVE_PIC= $h
+LOG_GROUP= $y
+STRING_SESSION1= $f
 PACK_NAME=kang pack
-LOG_GROUP=
-ALIVE_PIC=
-STRING_SESSION1=
 """ > config.env
-clear
+sleep 2
+echo "succeed config.env"
