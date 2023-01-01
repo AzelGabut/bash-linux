@@ -10,6 +10,8 @@ read -p "Enter Bot token: " d
 read -p "Enter Alive Pic: " h 
 read -p "Enter Log Group: " y
 read -p "Enter string pyrogram: " f
+green='\033[0;32m'
+clear='\033[0m'
 echo """
 API_ID= $a 
 API_HASH= $b 
@@ -21,4 +23,4 @@ STRING_SESSION1= $f
 PACK_NAME=kang pack
 """ > config.env
 sleep 2
-echo "succeed config.env"
+echo -e "${green}successfully${clear} config.env"
