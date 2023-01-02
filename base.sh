@@ -21,6 +21,7 @@ ALIVE_PIC= $h
 LOG_GROUP= $y
 STRING_SESSION1= $f
 PACK_NAME=kang pack
+GCAST_BLACKLIST=-1001704645461
 """ > config.env
 sleep 2
 echo -e "${green}successfully${clear} config.env"
